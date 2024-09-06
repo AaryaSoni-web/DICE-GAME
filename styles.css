@@ -1,0 +1,63 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #000000;
+  background-image:url("images/ludo.png");
+  background-repeat:no-repeat ;
+  background-size:850px;
+  background-position-x: center;
+  height: 100vh;
+}
+
+h1 {
+  margin: 70px;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #f30b49;
+}
+
+p {
+  margin-bottom: 50px;
+  font-size: 3rem;
+  color: #ee8d17;
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 250px;
+  margin-bottom: 50px;
+  box-shadow:  8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  color: #040303;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
